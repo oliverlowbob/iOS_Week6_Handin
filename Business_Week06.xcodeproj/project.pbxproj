@@ -13,6 +13,11 @@
 		84ADC5F523ED8265008CE942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC5F323ED8265008CE942 /* Main.storyboard */; };
 		84ADC5F723ED8290008CE942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC5F623ED8290008CE942 /* Assets.xcassets */; };
 		84ADC5FA23ED8290008CE942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC5F823ED8290008CE942 /* LaunchScreen.storyboard */; };
+		84ADC60223ED8466008CE942 /* 800px-Tesla_Motors.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC60123ED8465008CE942 /* 800px-Tesla_Motors.svg.png */; };
+		84ADC60423ED8476008CE942 /* uF_Hhpvx.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC60323ED8476008CE942 /* uF_Hhpvx.png */; };
+		84ADC60823ED9091008CE942 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADC60723ED9091008CE942 /* Page2ViewController.swift */; };
+		84ADC60A23ED9480008CE942 /* tesla-cybertruck-600x329.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC60923ED9480008CE942 /* tesla-cybertruck-600x329.png */; };
+		84ADC60C23ED9493008CE942 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC60B23ED9492008CE942 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		84ADC5F623ED8290008CE942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84ADC5F923ED8290008CE942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84ADC5FB23ED8290008CE942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ADC60123ED8465008CE942 /* 800px-Tesla_Motors.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "800px-Tesla_Motors.svg.png"; sourceTree = "<group>"; };
+		84ADC60323ED8476008CE942 /* uF_Hhpvx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uF_Hhpvx.png; sourceTree = "<group>"; };
+		84ADC60723ED9091008CE942 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		84ADC60923ED9480008CE942 /* tesla-cybertruck-600x329.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tesla-cybertruck-600x329.png"; sourceTree = "<group>"; };
+		84ADC60B23ED9492008CE942 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +70,14 @@
 				84ADC5EF23ED8265008CE942 /* SceneDelegate.swift */,
 				84ADC5F123ED8265008CE942 /* ViewController.swift */,
 				84ADC5F323ED8265008CE942 /* Main.storyboard */,
+				84ADC60323ED8476008CE942 /* uF_Hhpvx.png */,
 				84ADC5F623ED8290008CE942 /* Assets.xcassets */,
+				84ADC60123ED8465008CE942 /* 800px-Tesla_Motors.svg.png */,
 				84ADC5F823ED8290008CE942 /* LaunchScreen.storyboard */,
 				84ADC5FB23ED8290008CE942 /* Info.plist */,
+				84ADC60923ED9480008CE942 /* tesla-cybertruck-600x329.png */,
+				84ADC60723ED9091008CE942 /* Page2ViewController.swift */,
+				84ADC60B23ED9492008CE942 /* background.jpg */,
 			);
 			path = Business_Week06;
 			sourceTree = "<group>";
@@ -125,7 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ADC60A23ED9480008CE942 /* tesla-cybertruck-600x329.png in Resources */,
+				84ADC60223ED8466008CE942 /* 800px-Tesla_Motors.svg.png in Resources */,
+				84ADC60C23ED9493008CE942 /* background.jpg in Resources */,
 				84ADC5FA23ED8290008CE942 /* LaunchScreen.storyboard in Resources */,
+				84ADC60423ED8476008CE942 /* uF_Hhpvx.png in Resources */,
 				84ADC5F723ED8290008CE942 /* Assets.xcassets in Resources */,
 				84ADC5F523ED8265008CE942 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +159,7 @@
 			files = (
 				84ADC5F223ED8265008CE942 /* ViewController.swift in Sources */,
 				84ADC5EE23ED8265008CE942 /* AppDelegate.swift in Sources */,
+				84ADC60823ED9091008CE942 /* Page2ViewController.swift in Sources */,
 				84ADC5F023ED8265008CE942 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
